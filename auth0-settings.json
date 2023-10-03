@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "user_id": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"
+  },
+  "createUpnClaim": false,
+  "passthroughClaimsWithNoMapping": false,
+  "mapUnknownClaimsAsIs": false,
+  "mapIdentities": false,
+  "logout": {
+    "callback": "http://foo/logout",
+    "slo_enabled": false
+  }
+}
